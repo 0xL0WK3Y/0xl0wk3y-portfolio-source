@@ -1,0 +1,12 @@
+[submodule "themes/showfolio"]
+	path = themes/showfolio
+	url = https://github.com/apvarun/showfolio-hugo-theme.git
+[submodule "themes/vncnt-hugo"]
+	path = themes/vncnt-hugo
+	url = https://github.com/fncnt/vncnt-hugo
+[submodule "themes/gokarna"]
+	path = themes/gokarna
+	url = https://github.com/526avijitgupta/gokarna.git
+[submodule "themes/hugo-coder"]
+	path = themes/hugo-coder
+	url = https://github.com/luizdepra/hugo-coder.git

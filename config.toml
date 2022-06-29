@@ -1,0 +1,91 @@
+baseURL = "https://0xl0wk3y.github.io"
+title = "Georgios Rellias"
+theme = "hugo-coder"
+languageCode = "en"
+defaultContentLanguage = "en"
+paginate = 20
+pygmentsStyle = "bw"
+pygmentsCodeFences = true
+pygmentsCodeFencesGuessSyntax = true
+enableEmoji = true
+
+[params]
+author = "Georgios Rellias / 0xL0WK3Y"
+description = "0xL0WK3Y's portfolio page."
+keywords = "blog,developer,personal,cybersecurity,pwn,crypto,data,science,computers,biomedical,informatics"
+info = ["Aspiring Cybersecurity", "Wizard"]
+avatarURL = "images/avatar1.jpg"
+
+dateFormat = "January 2, 2006"
+since = 2022
+
+# Right To Left, shift content direction for languagues such as Arabic
+rtl = false
+
+colorScheme = "auto"
+# Hide the toggle button, along with the associated vertical divider
+hideColorSchemeToggle = false
+# Series see also post count
+maxSeeAlsoItems = 5
+# Custom CSS
+customCSS = []
+# Custom SCSS, file path is relative to Hugo's asset folder (default: {your project root}/assets)
+customSCSS = []
+# Custom JS
+customJS = []
+
+[taxonomies]
+category = "categories"
+series = "series"
+tag = "tags"
+author = "authors"
+
+[[params.social]]
+name = "Github"
+icon = "fa fa-2x fa-github"
+weight = 1
+url = "https://github.com/0xL0WK3Y"
+
+[[params.social]]
+name = "LinkedIn"
+icon = "fa fa-2x fa-linkedin"
+weight = 4
+url = "https://www.linkedin.com/in/george-rellias-bb4bb51b1/"
+
+[[params.social]]
+name = "Medium"
+icon = "fa fa-2x fa-medium"
+weight = 5
+url = "https://medium.com/@grrellias"
+
+[[params.social]]
+name = "Medium"
+icon = "fa fa-2x fa-amazon"
+weight = 5
+url = "https://www.amazon.com/kindle-dbs/entity/author/B09DQ9TGJ3?_encoding=UTF8&node=283155&offset=0&pageSize=12&searchAlias=stripbooks&sort=author-sidecar-rank&page=1&langFilter=default#formatSelectorHeader"
+
+
+
+[languages.en]
+languageName = ":uk:"
+
+[[languages.en.menu.main]]
+name = "About"
+weight = 1
+url = "about/"
+
+[[languages.en.menu.main]]
+name = "Blog"
+weight = 2
+url = "https://medium.com/@grrellias"
+
+[[languages.en.menu.main]]
+name = "Projects"
+weight = 3
+url = "https://github.com/0xL0WK3Y"
+
+
+[[languages.en.menu.main]]
+name = "Contact Me"
+weight = 5
+url = "contact/"
